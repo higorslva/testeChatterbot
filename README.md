@@ -12,6 +12,10 @@ Primeiro, instale as dependências necessárias no seu sistema. Abra um terminal
 ```sh
 sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git
 ```
+No Arch Linux e derivados:
+```sh
+sudo pacman -S base-devel openssl zlib bzip2 readline sqlite wget curl llvm ncurses xz tk libffi python-pyopenssl git
+```
 
 ## Passo 2: Instalar e Configurar o Pyenv
 
